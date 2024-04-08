@@ -1,0 +1,310 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: blanchedalmond;
+    background-image:workout-pictures-1920-x-1079-acvme8akyiuo2kuk.jpg;
+    
+} 
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227 74 56);;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.text-blue{
+    color:orange;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.logo{
+    font-size: 48px;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-inline: 22px;
+    color: white;
+    font-size: 22px;
+}
+
+p1{
+    color:rgba(255, 94, 0, 0.753);
+    font-size:22px;
+    font-family:"Times New Roman";
+}
+
+p2{
+    color:black;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 68px;
+    background-color: rgba(128, 128, 128, 0.096);
+    padding: 20px;
+}
+
+.main img{
+    width: 300px;
+}
+
+.mainText {
+    margin-top:111px;
+    margin-left: 33px;
+}
+
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(253, 9, 50);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 22px;
+    border-radius: 2px;
+}
+
+.main h1{
+    font-size: 44px;
+}
+
+.head{
+    text-align: center;
+    padding: 86px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.crd{
+    width: 370px;
+    margin-inline: 66px;
+    text-align: center;
+    background-color: sandybrown;
+    cursor: pointer;
+    margin-top: 44px;
+}
+
+.crdText{
+    padding: 22px;
+}
+
+.crd p{
+    margin-top: 11px;
+}
+
+.crd button{
+    margin-top: 12px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 22px;
+    border: none;
+    width: 300px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.crd img{
+    width: 100%;
+    height: 300px;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.planCard{
+    width: 270px;
+    box-shadow: 1px 3px 3px 3px rgb(201, 200, 200);
+    text-align: center;
+    margin-inline: 22px;
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.planCard h2{
+    background-color: orangered;
+    color: white;
+    padding: 13px;
+}
+
+.planCard p{
+    margin-top: 22px;
+}
+
+.planCard button{
+    margin-top: 22px;
+    width: 120px;
+    border: none;
+    height: 35px;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.connect{
+    width: 400px;
+    padding: 22px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.connect input{
+    width: 90%;
+    height: 22px;
+    margin-top: 22px;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+
+.connect button{
+    width: 120px;
+    height: 36px;
+    background-color:red ;
+    margin: auto;
+    border: none;
+    position: relative;
+    top: 13px;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.about-sec{
+	display: flex;
+	justify-content: center;
+	padding: 5rem 0;
+	background: blanchedalmond;
+	margin-top: 2rem;
+}
+
+.about-card{
+	width: 40%;
+	margin: 0 1rem;
+}
+
+.about-card img{
+	width: 100%;
+	height: 100%;
+}
+
+.about-intro p{
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 3rem;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 66px;
+    background-color: blanchedalmond;
+    color: white;
+    font-weight: bold;
+}
+
+#bar{
+    display: none;
+    font-size: 25px;
+}
+
+li {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    color:rgb(243, 13, 51)
+}
+
+.social-big li .fa-facebook {
+    background: #4e71a8;
+}
+.social-big li a {
+    -moz-background-clip: padding;
+    -moz-border-radius: 50%;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 50%;
+    background-clip: padding-box;
+    background: #fff !important;
+    border-radius: 0;
+    border-radius: 50%;
+    color: #333 !important;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    transition: visibility 0 linear .2s, opacity .2s linear;
+    width: 30px;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    border-left-color: #333;
+}
+
+h1 {
+    color: rgb(240, 60, 60);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
